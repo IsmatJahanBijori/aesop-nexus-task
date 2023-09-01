@@ -40,7 +40,7 @@ button {
     text-align: start;
 }
 
-button:hover {
+.button1:hover {
     text-decoration: underline;
     transition: border .5s ease;
 }

@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     font-size: 14px;
     line-height: 1.7;
+}
+
+.button-banner1 {
+    @apply  pb-[20px] px-10 border-2 transition duration-300 ease-in-out border-white bg-transparent 
 }

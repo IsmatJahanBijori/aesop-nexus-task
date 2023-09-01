@@ -1,4 +1,25 @@
-/* .image{
+.hero-content1 {
+    z-index: 0;
+    display: flex;
 
-    object-fit: cover;
-} */
+
+    max-width: 80rem
+        /* 1280px */
+    ;
+    gap: 1rem
+        /* 16px */
+    ;
+    padding: 1rem
+        /* 16px */
+    ;
+}
+
+.banner-button{
+    border: 1px solid #fffef2
+}
+.banner-button:hover {
+    background-color: #fffef2;
+    color: black;
+    
+
+}

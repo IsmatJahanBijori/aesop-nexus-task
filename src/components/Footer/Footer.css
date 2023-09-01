@@ -1,0 +1,15 @@
+.section-design{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fffef2;
+    text-decoration: none;
+}
+
+.banner-button_footer{
+    border: 1px solid #fffef2
+   
+}
+.banner-button_footer:hover{
+    background-color: #333;
+   
+}

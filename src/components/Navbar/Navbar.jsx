@@ -13,7 +13,7 @@ const Navbar = () => {
             {/*Second black part */}
 
             <div className='w-full text-center ShippingBanner_BannerContent__UGcUb ShippingBanner_BannerContent--expandable__r9wUZ'>
-                <button className='ShippingBanner_ShippingBanner-openModalBtn__Od1j6 text-white'>Click and Collect is now available at Hong Kong stores. Enjoy complimentary shipping on orders over HK$400</button>
+                <button className='ShippingBanner_ShippingBanner-openModalBtn__Od1j6 text-white button1'>Click and Collect is now available at Hong Kong stores. Enjoy complimentary shipping on orders over HK$400</button>
             </div>
 
             {/*Third part for md device */}
