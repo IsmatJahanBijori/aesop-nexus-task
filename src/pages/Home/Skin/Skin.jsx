@@ -27,11 +27,10 @@ const Skin = () => {
                 {
                     skinData.map(data =>
                         <SwiperSlide>
-
-                            <img src={data.img} alt="" className='h-[320px] mt-10' />
+                            <img src={data.img} alt="" className='h-[320px] mx-auto mt-10' />
                             <div className='mx-auto'>
-                                <p className=""><a href='https://www.aesop.com/hk/en/p/body-hand/body/nurture-bar-soap/' >{data.skinTitle}</a></p>
-                                <p>{data.skinSubtitle}</p>
+                                <p className="text-center"><a href='https://www.aesop.com/hk/en/p/body-hand/body/nurture-bar-soap/' >{data.skinTitle}</a></p>
+                                <p className="text-center">{data.skinSubtitle}</p>
                             </div>
                         </SwiperSlide>
                     )
