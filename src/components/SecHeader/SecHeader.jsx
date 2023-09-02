@@ -12,7 +12,7 @@ const SecHeader = ({ title, subtitle, desc, topic, img }) => {
             </div>
 
             <div className='md:w-1/2'>
-                <img src={img} alt="" className='w-[2500px] h-[700px]' />
+                <img src={img} alt="" className='w-[2500px] h-[400px] md:h-[700px]' />
             </div>
         </div>
     );
